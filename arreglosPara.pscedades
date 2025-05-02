@@ -1,0 +1,17 @@
+Algoritmo arreglosPara
+	Dimension nombres[5] 
+	dimension edades[5]
+	para i=1 hasta 5
+		escribir "ingrese nombres"
+		leer nombres[i]
+		escribir "ingrese edades"
+		leer edades[i]
+	FinPara
+	
+	Esperar Tecla
+	para i=1 hasta 5
+		escribir nombres[i] " su edad es:" edades[i]
+	FinPara
+	
+	
+FinAlgoritmo
